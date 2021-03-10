@@ -9,10 +9,10 @@ const char* password = "your Password";
 #define DHTTYPE DHT11   // define type of sensor DHT 11
 DHT dht (DHTPIN, DHTTYPE);
  
-#define ORG "n5sshj"
-#define DEVICE_TYPE "nodemcu"
-#define DEVICE_ID "nodemcu"
-#define TOKEN "Nodemcu@1"
+#define ORG "Your Org ID"
+#define DEVICE_TYPE "Your Device Type"
+#define DEVICE_ID "Your Device ID"
+#define TOKEN "Your Device Token"
 //-------- Customise the above values --------
  
 char server[] = ORG ".messaging.internetofthings.ibmcloud.com";
